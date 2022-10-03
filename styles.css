@@ -1,0 +1,217 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Noto Sans Mono', monospace;
+}
+.header{
+  min-height: 100vh;
+  width: 100% ;
+  background-image: linear-gradient(rgba(38, 5, 115, 850),rgba(38, 5, 115, 0.436)),url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6% ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.home1{
+  font-size: 25px;
+  font-weight: bold;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans Mono', monospace;
+ }
+ 
+ .header{
+   min-height: 100vh;
+   width: 100% ;
+   background-image: linear-gradient(rgba(38, 5, 115, 850),rgba(38, 5, 115, 0.436)),url(images/background.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+ }
+ nav{
+   display: flex;
+   padding: 2% 6% ;
+   justify-content: space-between;
+   align-items: center;
+ }
+ nav img{
+   width: 150px ;
+ }
+ .home1{
+   font-size: 25px;
+   font-weight: bold;
+ }
+ .home1{
+   color: white;
+   transition :transform 0.2s; 
+ } 
+ .home1:hover{
+   color: #fff;
+   text-shadow:
+       0 0 5px rgb(0, 0, 0),
+       0 0 5px rgb(0, 0, 0),
+       0 0 5px rgb(38, 5, 115, 850),
+       0 0 5px rgb(38, 5, 115, 850),
+       0 0 5px rgb(38, 5, 115, 850),
+       0 0 5px rgb(38, 5, 115, 850),
+       0 0 5px rgb(38, 5, 115, 850);
+ 
+   transform: scale(1.1);
+ }
+ .nav-links{
+   flex: 1;
+   text-align: right;
+ }
+ .nav-links ul li {
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px ;
+   position: relative;
+   color: #fff;
+   text-decoration: none;
+   font-size: 16px;
+ }
+ .nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #f44336;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+ }
+ .nav-links ul li:hover::after{
+   width: 100%;
+ }
+ 
+ .logo img{
+   border: 3px solid white;
+   border-radius: 50%;
+   display: block;
+   margin-top: 0cm;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+ }
+ .text-box{
+   width: 90%;
+   position: absolute;
+   color: white;
+   top: 75%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   text-align: center;
+ }
+ .text-box h1{
+   color: rgb(255 ,255 ,255 ,255);
+   font-size: 58px;
+   font-family: 'Passions Conflict', cursive;;
+ }
+ .h-button{
+  top : 78% ;
+ }
+ 
+ .h-button {
+   margin-top: 3%;
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   border: 1px solid #fff;
+   padding: 12px 34px ;
+   font-size: 13px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+ }
+ .h-button:hover{
+   border: 2px solid #f44336;
+   background: #f44336;
+   transition: 1s;
+ 
+ }
+ 
+ 
+ nav .fa {
+   display: none ;
+ }
+ nav .fa-solid {
+   display: none;
+ }
+ .logo{
+   align-items: center;
+   width: 100% ;
+ }
+ @media(max-width : 700px){ 
+   html, body {
+     overflow-x: hidden;
+   }
+   body {
+     position: relative
+   }
+
+   .logo{
+     position : relative ;
+     margin-top: 15%;
+     width : 300%;
+     right : 100% ;
+     height : auto ;
+   }
+   .text-box{
+     font-size: 20px;
+   }
+ 
+   .nav-links ul li {
+     display: block;
+   }
+   .nav-links{
+     position: absolute;
+     background: #55026e;
+     height: 100vh;
+     width: 200px;
+     top: 0;
+     right: -200px;
+     text-align: left;
+     z-index: 2;
+     transition: 1s;
+   }
+   nav .fa-solid {
+     display: block;
+     color: #fff;
+     margin: 10px; 
+     font-size: 22px;
+     cursor: pointer;
+   }
+   nav-links ul{
+     padding: 30px ;
+   }
+ }
+ 
+ /*-------Music_______*/
+ 
+ .beats{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 70px ;
+ }
+ 
+ .beats h2 {
+   font-size: 36px;
+   font-weight: 600;
+   font-family:  'Noto Sans Mono', monospace;
+   font-family: 'Passions Conflict', cursive;;
+ }
+ 
+ .section beats{
+   overflow-y: scroll;
+   scroll-behavior: smooth;
+ }
