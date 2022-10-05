@@ -92,6 +92,7 @@ nav{
  .nav-links ul li:hover::after{
    width: 100%;
  }
+
  
  .logo img{
    border: 3px solid white;
@@ -208,10 +209,19 @@ nav{
    font-size: 36px;
    font-weight: 600;
    font-family:  'Noto Sans Mono', monospace;
-   font-family: 'Passions Conflict', cursive;;
+   font-family: 'Passions Conflict', cursive;
  }
- 
- .section beats{
-   overflow-y: scroll;
-   scroll-behavior: smooth;
- }
+
+.player{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding : 2px;
+  top: 80%;
+}
+.player h3{
+  font-size: 40px;
+  font-weight: 600;
+  font-family:  'Noto Sans Mono', monospace;
+  font-family: 'Passions Conflict', cursive;
+}
