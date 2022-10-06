@@ -95,7 +95,7 @@ nav{
 
  
  .logo img{
-   border: 3px solid white;
+  border: 2px solid white;
    border-radius: 50%;
    display: block;
    margin-top: 0cm;
@@ -103,6 +103,17 @@ nav{
    margin-right: auto;
    width: 20%;
  }
+.logo img{
+  padding: 10px;
+  background:linear-gradient(135deg ,blue  , red 50%  , transparent 50%);
+  background-size: 250%;
+  background-position: 100%,100%;
+  transition: background 0.5s;
+}
+.logo img:hover{
+  background-position: 0%.0%;
+}
+
  .text-box{
    width: 90%;
    position: absolute;
@@ -139,7 +150,7 @@ nav{
    transition: 1s;
  
  }
- 
+
  
  nav .fa {
    display: none ;
